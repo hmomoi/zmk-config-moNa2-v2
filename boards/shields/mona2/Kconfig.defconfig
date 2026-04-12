@@ -21,6 +21,9 @@ config SPI
 config PMW3610
     default y
 
+config MIPI_DBI
+    bool
+
 endif
 
 if SHIELD_MONA2_R || SHIELD_MONA2_L
