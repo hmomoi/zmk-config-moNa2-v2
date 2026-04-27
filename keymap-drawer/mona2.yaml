@@ -38,12 +38,12 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
+  - {t: ENTER, h: function}
+  - {t: '&to_layer_0 LANG2', h: arrow}
+  - {t: '&to_layer_0 LANG1', h: arrow}
+  - {t: SPACE, h: number}
   - LEFT ALT
-  '1':
+  number:
   - '1'
   - '2'
   - '3'
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  '2':
+  function:
   - '!'
   - '@'
   - '#'
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '3':
+  arrow:
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - PRINTSCREEN
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  bluetooth:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -303,6 +303,6 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
-  k: {t: ESC, h: '4'}
+  k: {t: ESC, h: bluetooth}
 - p: [11, 12]
   k: TAB
